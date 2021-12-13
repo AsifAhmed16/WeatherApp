@@ -1,0 +1,8 @@
+docker build --tag barcode-image .
+docker run --publish 8000:8000 barcode-image
+
+docker-compose build
+docker-compose run ...
+docker-compose up
+
+docker exec -it docker_container /bin/bash

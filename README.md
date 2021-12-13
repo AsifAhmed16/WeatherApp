@@ -1,6 +1,10 @@
 # WeatherApp
 
 ```
+A very simple application where user can search a place and through DRF, a result will be shown and keep the data in postgres database.
+```
+
+```
 # Frontend App
 npm install :
 1. npm init react-app frontend
@@ -18,7 +22,11 @@ sudo -i -u postgres
 psql
 CREATE DATABASE weather_app_db;
 
-Step 2: Migration
+Step 2: Requirements.txt file for installing dependencies
+pip freeze requirements.txt
+pip install requirements.txt
+
+Step 3: Migration
 python manage.py makemigrations
 python manage.py migrate
 

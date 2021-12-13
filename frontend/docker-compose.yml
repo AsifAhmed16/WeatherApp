@@ -1,0 +1,16 @@
+version: "3"
+
+services: 
+  client-app:
+    build: 
+      context: .
+    image: weather-frontend-image
+    container_name: weather-frontend-container
+    ports: 
+      - "3000:3000"
+    command: >
+      sh -c "NODE_OPTIONS='--max-old-space-size=2048' yarn start-local"
+    volumes: 
+      - ./src:/app/src
+    stdin_open: true
+
