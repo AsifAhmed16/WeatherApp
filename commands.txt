@@ -1,8 +1,11 @@
-docker build --tag barcode-image .
-docker run --publish 8000:8000 barcode-image
+docker build --tag weather-backend-image .
+docker run --publish 8000:8000 weather-backend-image
+
+docker build --tag weather-frontend-image .
+docker run --publish 3000:3000 weather-frontend-image
 
 docker-compose build
 docker-compose run ...
 docker-compose up
 
-docker exec -it docker_container /bin/bash
+docker exec -it weather-frontend-container /bin/bash
