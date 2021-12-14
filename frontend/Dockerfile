@@ -6,6 +6,6 @@ COPY ./src /app/src
 COPY ./public /app/public
 
 COPY package.json /app/
-COPY .env.local /app/
+COPY .env /app/
 
 RUN yarn

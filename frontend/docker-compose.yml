@@ -9,7 +9,7 @@ services:
     ports: 
       - "3000:3000"
     command: >
-      sh -c "NODE_OPTIONS='--max-old-space-size=2048' yarn start-local"
+      sh -c "NODE_OPTIONS='--max-old-space-size=2048' npm start"
     volumes: 
       - ./src:/app/src
     stdin_open: true

@@ -6,7 +6,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      output: [],
+      output: null,
       location: null
     };
 
@@ -25,12 +25,9 @@ class App extends React.Component {
 
     try {
       const res = await axios.post(`${process.env.REACT_APP_API_URL}/api/weather/`, body, config);
-      this.handleChange({ output: (res.data.msg) });
-      console.log(this.state.output);
+      this.handleChange({ output: (res.data.response_obj) });
     } catch(error) {
       console.log(error.response);
-      this.handleChange({ output: (error.response.data.msg) });
-      console.log(this.state.output);
     };
   }
 
@@ -50,7 +47,7 @@ class App extends React.Component {
       <div className="App">
         <header className="App-header">
           <form>
-            <label> - - - - - SIMPLE WEATHER APPLICATION - - - - - </label>
+            <label> - - - - - WEATHER APPLICATION - - - - - </label>
             <br/>
             <br/>
             <label>SEARCH LOCATION
@@ -72,23 +69,30 @@ class App extends React.Component {
             </button>
             <br/>
             <br/>
-            <p>{ this.state.output }</p>
           </form>
-          <table hover size="sm" style={{visibility: this.state.output.length===0 ? 'hidden' : 'visible' , border: '3px solid black'}}>
+          <table hover size="sm" style={{visibility: this.state.output===null ? 'hidden' : 'visible', border: '3px solid black'}}>
             <thead>
               <tr>
-                <th>First Name</th>
-                <th>2nd Name</th>
+                <th>Location|</th>
+                <th>Temperature|</th>
+                <th>Feels-Like|</th>
+                <th>Max-Temperature|</th>
+                <th>Min-Temperature|</th>
+                <th>Pressure|</th>
+                <th>Humidity</th>
               </tr>
             </thead>
             <tbody>
-              {
-                this.state.output.map((item) => (
-                  <tr key={item.id}>
-                    <td>{item.product_name}</td>
-                    <td>{item.product_category}</td>
-                  </tr>
-                ))
+              { this.state.output ? (
+                <tr key={this.state.output.guid}>
+                <td>{this.state.output.temp}</td>
+                <td>{this.state.output.feels}</td>
+                <td>{this.state.output.max_temp}</td>
+                <td>{this.state.output.min_temp}</td>
+                <td>{this.state.output.pressure}</td>
+                <td>{this.state.output.humidity}</td>
+              </tr>
+              ) : (<tr></tr>)
               }
             </tbody>
           </table>
