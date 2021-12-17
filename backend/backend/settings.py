@@ -138,7 +138,7 @@ CORS_ALLOWED_ORIGINS = [
 API_ADDRESS = "https://api.openweathermap.org/data/2.5/"
 API_KEY = "fe1e5ae7444e5aeef9c137a03cb08242"
 
-# try:
-#     from .docker_settings import *
-# except ImportError:
-#     pass
+try:
+    from .docker_settings import *
+except ImportError:
+    pass
