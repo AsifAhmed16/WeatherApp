@@ -121,3 +121,17 @@ python manage.py loaddata weather_entry
 
 
 ```
+
+
+# Conclusion
+
+```
+
+# My Focus
+ I tried to go with the flow of OpenWeatherMapAPI and as much as cutting edge technologies I can attach through the application I created.
+
+# Field of Improvement
+More user interactive application with new features.
+
+```
+
