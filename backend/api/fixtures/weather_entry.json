@@ -1,0 +1,741 @@
+[
+  {
+    "model": "api.weatherentry",
+    "pk": 1,
+    "fields": {
+      "created_at": "2021-12-16T16:06:52.692Z",
+      "updated_at": "2021-12-16T16:06:52.692Z",
+      "guid": "7dc21c69-5deb-49ec-8fd1-128ded0a22de",
+      "coord": {
+        "lat": 23.7104,
+        "lon": 90.4074
+      },
+      "weather": [
+        {
+          "id": 721,
+          "icon": "50n",
+          "main": "Haze",
+          "description": "haze"
+        }
+      ],
+      "main": {
+        "temp": 296.14,
+        "humidity": 68,
+        "pressure": 1016,
+        "temp_max": 296.14,
+        "temp_min": 296.14,
+        "feels_like": 296.27
+      },
+      "wind": {
+        "deg": 310,
+        "speed": 4.12
+      },
+      "fetched_location": "Dhaka",
+      "searched_location": "dhaka"
+    }
+  },
+  {
+    "model": "api.weatherentry",
+    "pk": 2,
+    "fields": {
+      "created_at": "2021-12-16T16:22:47.128Z",
+      "updated_at": "2021-12-16T16:22:47.128Z",
+      "guid": "e0fa48a3-3d00-444b-9be3-9c0e676264a8",
+      "coord": {
+        "lat": 23.7104,
+        "lon": 90.4074
+      },
+      "weather": [
+        {
+          "id": 721,
+          "icon": "50n",
+          "main": "Haze",
+          "description": "haze"
+        }
+      ],
+      "main": {
+        "temp": 296.14,
+        "humidity": 68,
+        "pressure": 1016,
+        "temp_max": 296.14,
+        "temp_min": 296.14,
+        "feels_like": 296.27
+      },
+      "wind": {
+        "deg": 330,
+        "speed": 3.09
+      },
+      "fetched_location": "Dhaka",
+      "searched_location": "dhaka"
+    }
+  },
+  {
+    "model": "api.weatherentry",
+    "pk": 3,
+    "fields": {
+      "created_at": "2021-12-16T16:23:26.328Z",
+      "updated_at": "2021-12-16T16:23:26.328Z",
+      "guid": "69f14db5-3e74-417d-be3f-27e849547b19",
+      "coord": {
+        "lat": 23.7104,
+        "lon": 90.4074
+      },
+      "weather": [
+        {
+          "id": 721,
+          "icon": "50n",
+          "main": "Haze",
+          "description": "haze"
+        }
+      ],
+      "main": {
+        "temp": 296.14,
+        "humidity": 68,
+        "pressure": 1016,
+        "temp_max": 296.14,
+        "temp_min": 296.14,
+        "feels_like": 296.27
+      },
+      "wind": {
+        "deg": 330,
+        "speed": 3.09
+      },
+      "fetched_location": "Dhaka",
+      "searched_location": "dhaka"
+    }
+  },
+  {
+    "model": "api.weatherentry",
+    "pk": 4,
+    "fields": {
+      "created_at": "2021-12-16T16:25:33.296Z",
+      "updated_at": "2021-12-16T16:25:33.296Z",
+      "guid": "772813cd-590f-4bfc-9605-049a991ac349",
+      "coord": {
+        "lat": 23.7104,
+        "lon": 90.4074
+      },
+      "weather": [
+        {
+          "id": 721,
+          "icon": "50n",
+          "main": "Haze",
+          "description": "haze"
+        }
+      ],
+      "main": {
+        "temp": 296.14,
+        "humidity": 68,
+        "pressure": 1016,
+        "temp_max": 296.14,
+        "temp_min": 296.14,
+        "feels_like": 296.27
+      },
+      "wind": {
+        "deg": 330,
+        "speed": 3.09
+      },
+      "fetched_location": "Tokyo",
+      "searched_location": "tokyo"
+    }
+  },
+  {
+    "model": "api.weatherentry",
+    "pk": 5,
+    "fields": {
+      "created_at": "2021-12-16T17:14:23.244Z",
+      "updated_at": "2021-12-16T17:14:23.244Z",
+      "guid": "f4e3ee45-e9fa-4c82-a11c-5b94367f41bb",
+      "coord": {
+        "lat": 23.7104,
+        "lon": 90.4074
+      },
+      "weather": [
+        {
+          "id": 721,
+          "icon": "50n",
+          "main": "Haze",
+          "description": "haze"
+        }
+      ],
+      "main": {
+        "temp": 296.14,
+        "humidity": 68,
+        "pressure": 1016,
+        "temp_max": 296.14,
+        "temp_min": 296.14,
+        "feels_like": 296.27
+      },
+      "wind": {
+        "deg": 340,
+        "speed": 2.57
+      },
+      "fetched_location": "Dhaka",
+      "searched_location": "dhaka"
+    }
+  },
+  {
+    "model": "api.weatherentry",
+    "pk": 6,
+    "fields": {
+      "created_at": "2021-12-16T17:42:02.566Z",
+      "updated_at": "2021-12-16T17:42:02.566Z",
+      "guid": "e2e15971-c855-49f2-b2c5-11fef3bf2df8",
+      "coord": {
+        "lat": 23.7104,
+        "lon": 90.4074
+      },
+      "weather": [
+        {
+          "id": 721,
+          "icon": "50n",
+          "main": "Haze",
+          "description": "haze"
+        }
+      ],
+      "main": {
+        "temp": 295.14,
+        "humidity": 73,
+        "pressure": 1015,
+        "temp_max": 295.14,
+        "temp_min": 295.14,
+        "feels_like": 295.3
+      },
+      "wind": {
+        "deg": 330,
+        "speed": 2.57
+      },
+      "fetched_location": "Dhaka",
+      "searched_location": "dhaka"
+    }
+  },
+  {
+    "model": "api.weatherentry",
+    "pk": 7,
+    "fields": {
+      "created_at": "2021-12-16T17:43:19.118Z",
+      "updated_at": "2021-12-16T17:43:19.118Z",
+      "guid": "af2a0638-bd0d-41a4-bdbb-cba88025f938",
+      "coord": {
+        "lat": 23.7104,
+        "lon": 90.4074
+      },
+      "weather": [
+        {
+          "id": 721,
+          "icon": "50n",
+          "main": "Haze",
+          "description": "haze"
+        }
+      ],
+      "main": {
+        "temp": 295.14,
+        "humidity": 73,
+        "pressure": 1015,
+        "temp_max": 295.14,
+        "temp_min": 295.14,
+        "feels_like": 295.3
+      },
+      "wind": {
+        "deg": 310,
+        "speed": 2.06
+      },
+      "fetched_location": "Dhaka",
+      "searched_location": "dhaka"
+    }
+  },
+  {
+    "model": "api.weatherentry",
+    "pk": 8,
+    "fields": {
+      "created_at": "2021-12-16T17:59:50.765Z",
+      "updated_at": "2021-12-16T17:59:50.765Z",
+      "guid": "050d78f1-a347-42a4-9f77-16600597fafd",
+      "coord": {
+        "lat": 23.7104,
+        "lon": 90.4074
+      },
+      "weather": [
+        {
+          "id": 721,
+          "icon": "50n",
+          "main": "Haze",
+          "description": "haze"
+        }
+      ],
+      "main": {
+        "temp": 295.14,
+        "humidity": 73,
+        "pressure": 1015,
+        "temp_max": 295.14,
+        "temp_min": 295.14,
+        "feels_like": 295.3
+      },
+      "wind": {
+        "deg": 310,
+        "speed": 2.06
+      },
+      "fetched_location": "Dhaka",
+      "searched_location": "dhaka"
+    }
+  },
+  {
+    "model": "api.weatherentry",
+    "pk": 9,
+    "fields": {
+      "created_at": "2021-12-16T19:07:03.726Z",
+      "updated_at": "2021-12-16T19:07:03.726Z",
+      "guid": "71e745cf-4399-4d74-a04e-97a0a7cecb73",
+      "coord": {
+        "lat": 23.7104,
+        "lon": 90.4074
+      },
+      "weather": [
+        {
+          "id": 721,
+          "icon": "50n",
+          "main": "Haze",
+          "description": "haze"
+        }
+      ],
+      "main": {
+        "temp": 295.14,
+        "humidity": 73,
+        "pressure": 1015,
+        "temp_max": 295.14,
+        "temp_min": 295.14,
+        "feels_like": 295.3
+      },
+      "wind": {
+        "deg": 320,
+        "speed": 2.57
+      },
+      "fetched_location": "Dhaka",
+      "searched_location": "dhaka"
+    }
+  },
+  {
+    "model": "api.weatherentry",
+    "pk": 10,
+    "fields": {
+      "created_at": "2021-12-16T19:11:01.271Z",
+      "updated_at": "2021-12-16T19:11:01.271Z",
+      "guid": "00d5fe14-c04e-4d64-8b83-18958cdb6841",
+      "coord": {
+        "lat": 23.7104,
+        "lon": 90.4074
+      },
+      "weather": [
+        {
+          "id": 721,
+          "icon": "50n",
+          "main": "Haze",
+          "description": "haze"
+        }
+      ],
+      "main": {
+        "temp": 295.14,
+        "humidity": 73,
+        "pressure": 1015,
+        "temp_max": 295.14,
+        "temp_min": 295.14,
+        "feels_like": 295.3
+      },
+      "wind": {
+        "deg": 320,
+        "speed": 2.57
+      },
+      "fetched_location": "Dhaka",
+      "searched_location": "dhaka"
+    }
+  },
+  {
+    "model": "api.weatherentry",
+    "pk": 11,
+    "fields": {
+      "created_at": "2021-12-16T19:13:29.976Z",
+      "updated_at": "2021-12-16T19:13:29.976Z",
+      "guid": "851fffcc-6b0e-434b-b708-fa9faa673632",
+      "coord": {
+        "lat": 23.7104,
+        "lon": 90.4074
+      },
+      "weather": [
+        {
+          "id": 721,
+          "icon": "50n",
+          "main": "Haze",
+          "description": "haze"
+        }
+      ],
+      "main": {
+        "temp": 295.14,
+        "humidity": 73,
+        "pressure": 1015,
+        "temp_max": 295.14,
+        "temp_min": 295.14,
+        "feels_like": 295.3
+      },
+      "wind": {
+        "deg": 320,
+        "speed": 2.57
+      },
+      "fetched_location": "Dhaka",
+      "searched_location": "dhaka"
+    }
+  },
+  {
+    "model": "api.weatherentry",
+    "pk": 12,
+    "fields": {
+      "created_at": "2021-12-16T19:15:18.746Z",
+      "updated_at": "2021-12-16T19:15:18.746Z",
+      "guid": "031e5a8e-4480-4da4-9c47-af363147cd41",
+      "coord": {
+        "lat": 23.7104,
+        "lon": 90.4074
+      },
+      "weather": [
+        {
+          "id": 721,
+          "icon": "50n",
+          "main": "Haze",
+          "description": "haze"
+        }
+      ],
+      "main": {
+        "temp": 295.14,
+        "humidity": 73,
+        "pressure": 1015,
+        "temp_max": 295.14,
+        "temp_min": 295.14,
+        "feels_like": 295.3
+      },
+      "wind": {
+        "deg": 320,
+        "speed": 2.57
+      },
+      "fetched_location": "Dhaka",
+      "searched_location": "dhaka"
+    }
+  },
+  {
+    "model": "api.weatherentry",
+    "pk": 13,
+    "fields": {
+      "created_at": "2021-12-16T19:18:48.838Z",
+      "updated_at": "2021-12-16T19:18:48.838Z",
+      "guid": "9f464342-3bac-4ccb-9dcf-d21860694391",
+      "coord": {
+        "lat": 23.7104,
+        "lon": 90.4074
+      },
+      "weather": [
+        {
+          "id": 721,
+          "icon": "50n",
+          "main": "Haze",
+          "description": "haze"
+        }
+      ],
+      "main": {
+        "temp": 295.14,
+        "humidity": 73,
+        "pressure": 1015,
+        "temp_max": 295.14,
+        "temp_min": 295.14,
+        "feels_like": 295.3
+      },
+      "wind": {
+        "deg": 300,
+        "speed": 1.54
+      },
+      "fetched_location": "Dhaka",
+      "searched_location": "dhaka"
+    }
+  },
+  {
+    "model": "api.weatherentry",
+    "pk": 14,
+    "fields": {
+      "created_at": "2021-12-16T19:21:14.761Z",
+      "updated_at": "2021-12-16T19:21:14.761Z",
+      "guid": "fafc33dd-9732-4926-80ce-18ad01324e32",
+      "coord": {
+        "lat": 23.7104,
+        "lon": 90.4074
+      },
+      "weather": [
+        {
+          "id": 721,
+          "icon": "50n",
+          "main": "Haze",
+          "description": "haze"
+        }
+      ],
+      "main": {
+        "temp": 295.14,
+        "humidity": 73,
+        "pressure": 1015,
+        "temp_max": 295.14,
+        "temp_min": 295.14,
+        "feels_like": 295.3
+      },
+      "wind": {
+        "deg": 300,
+        "speed": 1.54
+      },
+      "fetched_location": "Dhaka",
+      "searched_location": "dhaka"
+    }
+  },
+  {
+    "model": "api.weatherentry",
+    "pk": 15,
+    "fields": {
+      "created_at": "2021-12-16T19:22:14.822Z",
+      "updated_at": "2021-12-16T19:22:14.822Z",
+      "guid": "02c87aad-9a9a-4666-a6cc-18fc998a7e52",
+      "coord": {
+        "lat": 35.6895,
+        "lon": 139.6917
+      },
+      "weather": [
+        {
+          "id": 502,
+          "icon": "10n",
+          "main": "Rain",
+          "description": "heavy intensity rain"
+        }
+      ],
+      "main": {
+        "temp": 281.86,
+        "humidity": 69,
+        "pressure": 1006,
+        "temp_max": 283.46,
+        "temp_min": 280.4,
+        "feels_like": 281.86
+      },
+      "wind": {
+        "deg": 328,
+        "gust": 1.34,
+        "speed": 0.45
+      },
+      "fetched_location": "Tokyo",
+      "searched_location": "tokyo"
+    }
+  },
+  {
+    "model": "api.weatherentry",
+    "pk": 16,
+    "fields": {
+      "created_at": "2021-12-16T19:22:22.540Z",
+      "updated_at": "2021-12-16T19:22:22.540Z",
+      "guid": "e45393f4-fc52-435f-9954-c67727cb098a",
+      "coord": {
+        "lat": 35.6895,
+        "lon": 139.6917
+      },
+      "weather": [
+        {
+          "id": 502,
+          "icon": "10n",
+          "main": "Rain",
+          "description": "heavy intensity rain"
+        }
+      ],
+      "main": {
+        "temp": 281.86,
+        "humidity": 69,
+        "pressure": 1006,
+        "temp_max": 283.46,
+        "temp_min": 280.4,
+        "feels_like": 281.86
+      },
+      "wind": {
+        "deg": 328,
+        "gust": 1.34,
+        "speed": 0.45
+      },
+      "fetched_location": "Tokyo",
+      "searched_location": "tokyo"
+    }
+  },
+  {
+    "model": "api.weatherentry",
+    "pk": 17,
+    "fields": {
+      "created_at": "2021-12-16T19:22:23.883Z",
+      "updated_at": "2021-12-16T19:22:23.883Z",
+      "guid": "c170a491-3f95-4735-932b-489f03e48382",
+      "coord": {
+        "lat": 35.6895,
+        "lon": 139.6917
+      },
+      "weather": [
+        {
+          "id": 502,
+          "icon": "10n",
+          "main": "Rain",
+          "description": "heavy intensity rain"
+        }
+      ],
+      "main": {
+        "temp": 281.86,
+        "humidity": 69,
+        "pressure": 1006,
+        "temp_max": 283.46,
+        "temp_min": 280.4,
+        "feels_like": 281.86
+      },
+      "wind": {
+        "deg": 328,
+        "gust": 1.34,
+        "speed": 0.45
+      },
+      "fetched_location": "Tokyo",
+      "searched_location": "tokyo"
+    }
+  },
+  {
+    "model": "api.weatherentry",
+    "pk": 18,
+    "fields": {
+      "created_at": "2021-12-16T19:22:24.678Z",
+      "updated_at": "2021-12-16T19:22:24.678Z",
+      "guid": "f746ad2b-906f-4ee8-ab5c-2e94f96508c1",
+      "coord": {
+        "lat": 35.6895,
+        "lon": 139.6917
+      },
+      "weather": [
+        {
+          "id": 502,
+          "icon": "10n",
+          "main": "Rain",
+          "description": "heavy intensity rain"
+        }
+      ],
+      "main": {
+        "temp": 281.86,
+        "humidity": 69,
+        "pressure": 1006,
+        "temp_max": 283.46,
+        "temp_min": 280.4,
+        "feels_like": 281.86
+      },
+      "wind": {
+        "deg": 328,
+        "gust": 1.34,
+        "speed": 0.45
+      },
+      "fetched_location": "Tokyo",
+      "searched_location": "tokyo"
+    }
+  },
+  {
+    "model": "api.weatherentry",
+    "pk": 19,
+    "fields": {
+      "created_at": "2021-12-16T19:23:34.429Z",
+      "updated_at": "2021-12-16T19:23:34.429Z",
+      "guid": "712bac09-fe96-4e18-aaff-bb5b9ea5f375",
+      "coord": {
+        "lat": 23.7104,
+        "lon": 90.4074
+      },
+      "weather": [
+        {
+          "id": 721,
+          "icon": "50n",
+          "main": "Haze",
+          "description": "haze"
+        }
+      ],
+      "main": {
+        "temp": 295.14,
+        "humidity": 73,
+        "pressure": 1015,
+        "temp_max": 295.14,
+        "temp_min": 295.14,
+        "feels_like": 295.3
+      },
+      "wind": {
+        "deg": 300,
+        "speed": 1.54
+      },
+      "fetched_location": "Dhaka",
+      "searched_location": "dhaka"
+    }
+  },
+  {
+    "model": "api.weatherentry",
+    "pk": 20,
+    "fields": {
+      "created_at": "2021-12-16T19:23:35.665Z",
+      "updated_at": "2021-12-16T19:23:35.665Z",
+      "guid": "9e0e2d39-c19a-46da-b3b9-b48cb9e56b53",
+      "coord": {
+        "lat": 23.7104,
+        "lon": 90.4074
+      },
+      "weather": [
+        {
+          "id": 721,
+          "icon": "50n",
+          "main": "Haze",
+          "description": "haze"
+        }
+      ],
+      "main": {
+        "temp": 295.14,
+        "humidity": 73,
+        "pressure": 1015,
+        "temp_max": 295.14,
+        "temp_min": 295.14,
+        "feels_like": 295.3
+      },
+      "wind": {
+        "deg": 300,
+        "speed": 1.54
+      },
+      "fetched_location": "Dhaka",
+      "searched_location": "dhaka"
+    }
+  },
+  {
+    "model": "api.weatherentry",
+    "pk": 21,
+    "fields": {
+      "created_at": "2021-12-16T19:31:15.828Z",
+      "updated_at": "2021-12-16T19:31:15.828Z",
+      "guid": "864a8319-d979-4e9e-a0be-b5386692f91c",
+      "coord": {
+        "lat": 23.7104,
+        "lon": 90.4074
+      },
+      "weather": [
+        {
+          "id": 721,
+          "icon": "50n",
+          "main": "Haze",
+          "description": "haze"
+        }
+      ],
+      "main": {
+        "temp": 295.14,
+        "humidity": 73,
+        "pressure": 1015,
+        "temp_max": 295.14,
+        "temp_min": 295.14,
+        "feels_like": 295.3
+      },
+      "wind": {
+        "deg": 300,
+        "speed": 1.54
+      },
+      "fetched_location": "Dhaka",
+      "searched_location": "dhaka"
+    }
+  }
+]

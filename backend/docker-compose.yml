@@ -10,7 +10,7 @@ services:
     image: backend:django
     container_name: weather_backend_container
     command: >
-      sh -c "python manage.py migrate &&
+      sh -c "python manage.py migrate && python manage.py loaddata weather_entry &&
              python manage.py runserver 0.0.0.0:8000
              "
     environment:
