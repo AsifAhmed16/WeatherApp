@@ -13,3 +13,10 @@ docker-compose run ...
 docker-compose up
 
 docker exec -it weather-frontend-container /bin/bash
+
+# Unit test
+python -m unittest 
+
+# Fixture
+python manage.py dumpdata api.weatherentry > api/fixtures/weather_entry.json
+python manage.py loaddata weather_entry
